@@ -1,5 +1,6 @@
 ﻿using Assignment2.FixedList;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Assignment2
 {
@@ -49,6 +50,89 @@ namespace Assignment2
         }
         static void Main(string[] args)
         {
+            #region Implemented Examples Of Collections
+
+            #region ArrayList
+
+            //ArrayList arrayList = new ArrayList();
+
+            //string x = "";
+
+            //while (true) // I Dont Know The Size Of Array
+            //{
+            //    x = Console.ReadLine();
+            //    if (x == "11")
+            //    {
+            //        break;
+            //    }
+            //    arrayList.Add(x);
+            //}
+
+            //arrayList.Add(1);
+            //arrayList.Add(2);
+            //arrayList.Add(3); // Multi Data Types 
+
+            #endregion
+
+            #region List
+            //List<string> List = new List<string>();
+
+            //string x = "";
+
+            //while (true) // I Dont Know The Size Of Array
+            //{
+            //    x = Console.ReadLine();
+            //    if (x == "11")
+            //    {
+            //        break;
+            //    }
+            //    List.Add(x);
+            //}
+            //List.Add(1); // error 
+            #endregion
+
+            #region Stack
+            //Stack<int> s = new Stack<int>();
+            //s.Push(1);
+            //s.Push(2);
+            //s.Push(3);
+            //while (s.Count > 0)
+            //{
+            //    Console.WriteLine(s.Pop()); // print in Reverse Order
+            //}
+            #endregion
+
+            #region Queue
+            //Queue<int> q = new Queue<int>();    
+
+            //q.Enqueue(1);
+            //q.Enqueue(2);
+            //q.Enqueue(3);
+            //q.Enqueue(4);
+            //while (q.Count > 0) {
+            //    Console.WriteLine(q.Dequeue()); // print in order 
+            //} 
+            #endregion
+
+            #region Dictionary
+            //Dictionary<string, int> salary = new Dictionary<string, int>();
+            //salary.Add("Ahmed", int.MaxValue);
+            //salary.Add("Omar", int.MinValue);  
+            #endregion
+
+            #region HashSet
+            //HashSet<int> IDs = new HashSet<int>();
+            //IDs.Add(1);
+            //IDs.Add(1);
+            //IDs.Add(1);
+            //IDs.Add(1);
+            //IDs.Add(1);
+            //IDs.Add(1);
+            //Console.WriteLine(IDs.Count);// will give me 1 because id must be unique  
+            #endregion
+
+            #endregion
+
             #region Reverse ArrayList
             //ArrayList array = new ArrayList() { 1};
             //ReverseArray(ref array);
@@ -80,7 +164,6 @@ namespace Assignment2
             //fixedSizeList.Add(3); // error
             //Console.WriteLine(fixedSizeList.Find(-1)); // error 
             #endregion
-
         }
     }
 }
